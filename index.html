@@ -1,1 +1,132 @@
-Hello World!
+<!doctype html>
+<html>
+    <head>    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Cogra Network">
+        <meta name="author" content="Cogra Network">
+        <title>Cogra Network</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <meta name="theme-color" content="#10b5d1">
+        <style>
+            .container {
+                max-width: 960px;
+            }
+            .pricing-header {
+                max-width: 700px;
+            }
+            .bg-success {
+                --bs-bg-opacity: 1;
+                background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+            }
+            .card {
+                --bs-border-color-translucent: #10b5d1 !important;
+                --bs-success: #10b5d1 !important;
+            }
+            .border-success {
+              --bs-border-opacity: 1;
+              border-color: #10b5d1 !important;
+            }
+            .text-bg-success {
+              color: #fff !important;
+              background-color: #10b5d1 !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container py-4">
+            <header>
+                <div class="pricing-header p-4 pb-3 mx-auto text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="120px" height="120px">
+                        <defs><style>.fa-secondary{opacity:0.95}</style></defs>
+                        <path class="fa-secondary" opacity="0.6" fill="#04046a" d="M392.7 23.6c-49.9 15.2-90.2 34-122.4 54.7L257.3 19.5c-1.2-5.3 .4-10.8 4.2-14.7S270.7-.8 276 .3L392.7 23.6zm41.8 218.9c20.7-32.2 39.4-72.5 54.7-122.4l23.3 116.7c1.1 5.3-.6 10.8-4.5 14.6s-9.4 5.4-14.7 4.2l-58.9-13.1z"/>
+                        <path class="fa-primary" fill="#10b5d1" d="M512.7 18.6c.8-5.1-.8-10.3-4.5-13.9S499.4-.6 494.3 .2c-238 39.7-322.1 146.4-334.5 226.5l-14-14-2-2-22.6-22.6c-6.2-6.2-6.2-16.4 0-22.6l56.4-56.4c18.9-18.9 18.7-49.5-.3-68.2L140.1 4.6c-6.3-6.1-16.3-6.1-22.5 .1l-2.8 2.8c-34 34-33.3 87.7-1.9 121L98.5 142.9c-18.7 18.7-18.7 49.1 0 67.9l22.6 22.6 0 0 5.7 5.7 0 0c9.3 9.4 9.3 24.5 0 33.9c-9.3 9.3-24.4 9.4-33.8 .2L76.5 256.6c-19.1-19.1-50.2-18.7-68.7 .9L4.4 261c-6.1 6.4-5.8 16.5 .6 22.6s16.5 5.8 22.6-.6l3.3-3.5c6.2-6.5 16.6-6.7 22.9-.3l10.6 10.6 .2 .2 22.6 22.6c10.1 10.2 9 26.9-2.4 35.8l-20 15.6c-3.5 2.7-7.7 4.2-12.1 4.2c-10.9 0-19.7-8.8-19.7-19.7V336c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 12.3C.9 376.8 24.1 400 52.6 400c11.5 0 22.7-3.8 31.8-10.9l28.2-21.9c9.4-7.3 22.8-6.5 31.2 1.9s9.3 21.8 1.9 31.2l-21.9 28.2c-7.1 9.1-10.9 20.3-10.9 31.8c0 28.6 23.2 51.7 51.7 51.7h12.3c8.8 0 16-7.2 16-16s-7.2-16-16-16H164.6c-10.9 0-19.7-8.8-19.7-19.7c0-4.4 1.5-8.7 4.2-12.1l15.6-20c8.8-11.4 25.6-12.4 35.8-2.3l.1 .1L223 448.3l.1 .1 9.9 9.9c6.5 6.5 6.2 17.2-.7 23.3l-2.8 2.5c-6.6 5.9-7.2 16-1.3 22.6s16 7.2 22.6 1.3l2.8-2.5c20.7-18.3 21.6-50.3 2.1-69.8l-9.9-9.9-5.7-5.7-.1-.1c-9.2-9.3-9.2-24.4 0-33.8l.1-.1 .1-.1c9.3-9.2 24.4-9.2 33.7 0l28.4 28.4c18.7 18.7 49.1 18.7 67.9 0L384.4 400c33.3 31.4 87 32.1 121-1.9l2.8-2.8c6.2-6.2 6.3-16.3 .1-22.5L472 335.7c-18.7-19-49.3-19.2-68.2-.3l-56.4 56.4c-6.2 6.2-16.4 6.2-22.6 0l-22.5-22.5-.1-.1-16-16C366.3 340.8 473 256.6 512.7 18.6zM168.9 280a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 32a16 16 0 1 1 0 32 16 16 0 1 1 0-32z"/>
+                    </svg>
+                    <h1 class="display-4 fw-light py-1">
+                        Cogra Network
+                    </h1>
+                </div>
+            </header>
+            <div class="container col-xxl-12 px-4 py-1">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="hr4.jpg" class="d-block mx-lg-auto img-fluid shadow-lg" alt="Hawkesbury River" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-6 fw-bold lh-1 mb-3">Say Goodbye to Slow Wireless NBN and 4G!</h1>
+                        <p class="lead">Hawkesbury River reliable Fibre to The Premises (FTTP) internet connection upgradable to 10 gigabit. First month free, local unlimited support and no contract.</p>
+                        <p class="lead">Available at Milsons Passage, Bar Point, Coba Point, Dangar Island, Mooney Mooney, Cogra Bay, Little Wobby, Fishermans Point, Marramarra, Big Jims Point, Marlow, Wendoree, Spencer, Neverfail Bay, Calabash Bay, Berowra Waters and Cottage Point.</p>
+                        <p class="lead">Email to connect! <a class="text-muted" href="mailto:hello@cogra.com.au">hello@cogra.com.au</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center px-3 py-3">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="fw-bold mb-0">No Contract</h4>
+                        <p>Pause and reconnect for the month on "Holiday Mode" with no contract!</p>
+                    </div>
+                    <div class="col">
+                        <h4 class="fw-bold mb-0">Local Support</h4>
+                        <p>Built local to support the community and includes technical support</p>
+                    </div>
+                    <div class="col">
+                        <h4 class="fw-bold mb-0">Fast Fibre</h4>
+                        <p>High speed Fibre to The Premises (FTTP). Upgradable to 10 gigabit!</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mb-1 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Mini</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$80<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="fw-semibold fs-5">50/20 Speed</li>
+                                <li>Low Latency</li>
+                                <li>Unlimited Data</li>
+                                <li>No Contract</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-success">
+                        <div class="card-header py-3 text-bg-success border-success">
+                            <h4 class="my-0 fw-normal">Mega</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$110<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="fw-semibold fs-5">100/40 Speed</li>
+                                <li>Low Latency</li>
+                                <li>Unlimited Data</li>
+                                <li>No Contract</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Max</h4>
+                    </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$180<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="fw-semibold fs-5">200/40 Speed</li>
+                                <li>Low Latency</li>
+                                <li>Unlimited Data</li>
+                                <li>No Contract</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    </body>
+</html>
